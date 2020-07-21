@@ -30,7 +30,9 @@ bisnietode(A,B):- progenitorde(D,A), progenitorde(D,C), progenitorde(B,C).
 
 hijode(A,B):- progenitorde(B,A).
 
-sobrinode(A,B):- hermanode(A,C),progenitorde(C,B).
+sobrinode(A,B):- hermanode(C,A),progenitorde(C,B).
+
+primode(A,B):- progenitorde(D,A), hermanode(C,D), progenitorde(C,B).
 
 
 familiarde(A,B):- progenitorde(A,B).
@@ -41,6 +43,8 @@ familiarde(A,B):- tiode(A,B).
 familiarde(A,B):- nietode(A,B).
 familiarde(A,B):- hijode(A,B).
 familiarde(A,B):- bisnietode(A,B).
+familiarde(A,B):- sobrinode(A,B).
+familiarde(A,B):- primode(A,B).
 
 
 familiar(X,L):-findall(B,familiarde(X,B),L).
