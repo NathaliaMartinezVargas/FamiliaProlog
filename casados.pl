@@ -1,5 +1,5 @@
 padrede('socrates','aristoteles').
-padrede('platon','aritoteles').
+padrede('platon','aristoteles').
 padrede('zeus','apolo').
 padrede('leto','apolo').
 padrede('zeus','artemisa').
