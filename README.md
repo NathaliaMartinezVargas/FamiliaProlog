@@ -17,7 +17,7 @@
 
 ### Logo del Lenguaje utilizado:
 
-![Logo](https://github.com/NathaliaMartinezVargas/FamiliaProlog/blob/master/Arbol%20Genealogico%20.png)
+![Logo](https://github.com/NathaliaMartinezVargas/FamiliaProlog/blob/master/swish%20prolog.png)
 
 ### Ejemplos:
 
