@@ -6,3 +6,5 @@
 
 ### Arbol genealogico:
 
+![Arbol genealogico](https://github.com/NathaliaMartinezVargas/FamiliaProlog/blob/master/Arbol%20Genealogico%20.png)
+
